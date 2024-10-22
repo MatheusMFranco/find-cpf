@@ -1,0 +1,13 @@
+<section>
+  <div *ngFor="let item of items" class="item">
+    <div>
+        <strong>{{ item?.numero }}</strong>
+        <div>{{ item?.codigo }}</div>
+        <b>{{ item?.tipo }}</b>
+        <div>{{ item?.limite }}</div>
+    </div>
+    <div>
+      {{ item?.bandeira }}
+    </div>
+  </div>
+</section>
